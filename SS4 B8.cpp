@@ -9,9 +9,9 @@ int main(){
 	printf("moi ban nhap do dai canh c! \n");
 	scanf("%d",&c);
 	 if(0<a && 0<b && 0<c && (a + b > c) && (c + b > a) && (a + c > b)){
-	 	printf("du dieu kien tao thanh 1 tam giac"); 
+	 	printf(" Là 3 cạnh tam giác"); 
 	 }else {
-	 	printf("khong du dieu kien tao thanh 1 tam giac"); 
+	 	printf("Không phải 3 cạnh tam giác"); 
 	 } 
 	 return 0;
 }
