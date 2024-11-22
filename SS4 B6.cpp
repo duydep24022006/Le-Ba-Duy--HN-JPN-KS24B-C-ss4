@@ -10,19 +10,19 @@ int main(){
 	
 	if(0<=hsd && hsd<50){
 		s = hsd * 10; 
-		printf("tien dien thang nay cua ban la %d",s); 
+		printf("tien dien thang nay cua ban la %dk",s); 
 	}else if(50<=hsd && hsd<100){
 		s = hsd * 15; 
-		printf("tien dien thang nay cua ban la %d",s);	
+		printf("tien dien thang nay cua ban la %dk",s);	
 	}else if(50<=hsd && hsd<100){
 		s = hsd * 20; 
-		printf("tien dien thang nay cua ban la %d",s);
+		printf("tien dien thang nay cua ban la %dk",s);
 	}else if(100<=hsd && hsd<150){
 		s = hsd * 25; 
-		printf("tien dien thang nay cua ban la %d",s);
+		printf("tien dien thang nay cua ban la %dk",s);
 	}else {
 		s = hsd * 30; 
-		printf("tien dien thang nay cua ban la %d",s);
+		printf("tien dien thang nay cua ban la %dk",s);
 	}
 	return 0; 
 }
